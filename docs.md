@@ -9,3 +9,5 @@
 - https://github.com/cis198-2016s/homework
 
 - https://github.com/ctjhoa/rust-learning
+
+- https://github.com/rust-unofficial/awesome-rust
