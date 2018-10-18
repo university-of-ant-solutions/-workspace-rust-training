@@ -6,4 +6,6 @@
 
 - http://cis198-2016s.github.io/schedule/
 
+- https://github.com/cis198-2016s/homework
+
 - https://github.com/ctjhoa/rust-learning
