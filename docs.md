@@ -9,3 +9,11 @@
 - https://github.com/cis198-2016s/homework
 
 - https://github.com/ctjhoa/rust-learning
+
+- https://github.com/rust-unofficial/awesome-rust
+
+- https://www.oreilly.com/library/view/programming-rust/9781491927274/
+
+# Projects
+
+- https://github.com/paritytech/parity-ethereum
