@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod test {
     #[test]
-    fn mutability() {
+    fn test_mutability() {
         let _immutable_binding = 1;
         let mut mutable_binding = 1;
 

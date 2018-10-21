@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod test {
     #[test]
-    fn it_works() {
+    fn test_primitives() {
         // Variables can be type annotated.
         let logical: bool = true;
         assert_eq!(logical, true);
