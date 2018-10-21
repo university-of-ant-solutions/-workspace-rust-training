@@ -17,3 +17,5 @@
 # Projects
 
 - https://github.com/paritytech/parity-ethereum
+
+- https://github.com/tox-rs/tox
