@@ -28,9 +28,13 @@ Rust provides access to a wide variety of primitives. A sample includes:
 
 #### Compound Types
 
-- arrays like [1, 2, 3]
+##### Array
 
-- tuples like (1, true)
+#### Tuples
+
+A tuple is a collection of values of different types. Tuples are constructed using parentheses (), and each tuple itself is a value with type signature (T1, T2, ...), where T1, T2 are the types of its members. Functions can use tuples to return multiple values, as tuples can hold any number of values.
+
+[Example](/basic-types/src/tuples.rs)
 
 ### Mutability
 
