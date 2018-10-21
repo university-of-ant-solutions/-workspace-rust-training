@@ -14,6 +14,8 @@ $ cd basic-types
 
 ### Primitives
 
+Rust provides access to a wide variety of primitives. A sample includes:
+
 #### Scalar types
 
 | Size (bits)  | Unsigned integer                     | Signed integer           | Floating-point |
@@ -23,6 +25,12 @@ $ cd basic-types
 | 32           | u32 (0 to 2^32 − 1)                  | i32 (−2^31 to 2^31 − 1 ) | f32            |
 | 64           | u64 (0 to 2^64 − 1)                  | i64 (−2^63 to 2^63 − 1)  | f64            |
 | Machine word | usize 0 to either 2^32 −1 or 2^64 −1 | isize                    |                |
+
+#### Compound Types
+
+- arrays like [1, 2, 3]
+
+- tuples like (1, true)
 
 ### Mutability
 
