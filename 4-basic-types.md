@@ -24,7 +24,33 @@ $ cd basic-types
 | 64           | u64 (0 to 2^64 − 1)                  | i64 (−2^63 to 2^63 − 1)  | f64            |
 | Machine word | usize 0 to either 2^32 −1 or 2^64 −1 | isize                    |                |
 
+### Mutability
+
+Variable bindings are immutable by default, but this can be overridden using the mut modifier.
+
+```
+fn main() {
+    let _immutable_binding = 1;
+    let mut mutable_binding = 1;
+
+    println!("Before mutation: {}", mutable_binding);
+
+    // Ok
+    mutable_binding += 1;
+
+    println!("After mutation: {}", mutable_binding);
+
+    // Error!
+    _immutable_binding += 1;
+    // FIXME ^ Comment out this line
+}
+```
+
+The compiler will throw a detailed diagnostic about mutability errors.
+
 ### Links
 
 - https://doc.rust-lang.org/rust-by-example/primitives.html#scalar-types
+
+- https://doc.rust-lang.org/rust-by-example/variable_bindings/mut.html
 
