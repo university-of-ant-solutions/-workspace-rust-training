@@ -7,7 +7,7 @@ pub fn reverse(pair: (i32, bool)) -> (bool, i32) {
 }
 
 #[cfg(test)]
-mod tests {
+mod test {
     use super::*;
     #[test]
     fn test_tuples() {
