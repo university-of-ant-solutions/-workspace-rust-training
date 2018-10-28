@@ -11,3 +11,7 @@ $ cargo new modules --lib
      Created library `modules` project
 $ cd modules
 ```
+
+### Links
+
+- https://doc.rust-lang.org/rust-by-example/mod.html
