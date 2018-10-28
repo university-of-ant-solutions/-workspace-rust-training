@@ -17,3 +17,9 @@
 # Projects
 
 - https://github.com/paritytech/parity-ethereum
+
+- https://github.com/tox-rs/tox
+
+# Rust coding standards 
+
+- https://github.com/rust-lang-nursery/fmt-rfcs
