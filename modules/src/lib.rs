@@ -1,7 +1,11 @@
+mod visibility;
+
 #[cfg(test)]
-mod tests {
+mod test {
+	use super::*;
     #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+    fn test_visibility() {
+        assert_eq!(visibility::function(), 32);
+        assert_eq!(visibility::indirect_access(), 16);
     }
 }
