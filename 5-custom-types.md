@@ -94,3 +94,7 @@ fn main() {
 A common use for enums is to create a linked-list.
 
 [Example](/custom-types/src/linked_list.rs)
+
+#### constants
+
+[https://doc.rust-lang.org/rust-by-example/custom_types/constants.html](https://doc.rust-lang.org/rust-by-example/custom_types/constants.html)
