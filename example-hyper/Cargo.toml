@@ -1,0 +1,7 @@
+[package]
+name = "example-hyper"
+version = "0.1.0"
+authors = ["Hoang Nam (particle4dev) <particle4dev@gmail.com>"]
+
+[dependencies]
+hyper = "0.12"
