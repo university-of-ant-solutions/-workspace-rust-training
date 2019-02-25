@@ -1,8 +1,10 @@
+extern crate futures;
 extern crate hyper;
 
-use hyper::{Body, Request, Response, Server};
-use hyper::rt::Future;
-use hyper::service::service_fn_ok;
+use futures::future;
+use hyper::rt::{Future, Stream};
+use hyper::service::service_fn;
+use hyper::{Body, Method, Request, Response, Server, StatusCode};
 
 const PHRASE: &str = "Hello, World!";
 
