@@ -9,7 +9,7 @@ Rust is a systems programming language[11] with a focus on **safety**, **especia
 ### Table of Contents
 
 - Basic
-	- [**Installing rust**](1-installing-rust.md)
+  - [**Installing rust**](1-installing-rust.md)
   - [**Hello app**](2-hello-app.md)
   - [**Unit test with Rust**](3-unit-test-with-rust.md)
   - [**Basic types**](4-basic-types.md)
