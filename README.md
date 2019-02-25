@@ -8,5 +8,5 @@ Rust is a systems programming language[11] with a focus on **safety**, **especia
 
 ### Table of Contents
 
-- [Basic]
+- Basic
 	- [**Installing rust**](1-installing-rust.md)
